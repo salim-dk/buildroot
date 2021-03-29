@@ -1,5 +1,7 @@
 FROM gitpod/workspace-full-vnc
 
+RUN brew install rsync cpio
+# RUN make imx6ulevk_defconfig && make
 #RUN apt get update && \
 #    apt install -y rsync cpio
 # Install custom tools, runtimes, etc.
