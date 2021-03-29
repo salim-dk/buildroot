@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full-vnc
+FROM gitpod/workspace-full
 
 RUN brew install rsync cpio
 # RUN make imx6ulevk_defconfig && make
