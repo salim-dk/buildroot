@@ -1,1 +1,6 @@
-test
+config BR2_PACKAGE_LIBCPR
+    bool "libcpr"
+    help
+        C++ Wrapper for Curl
+
+        https://github.com/whoshuu/cpr

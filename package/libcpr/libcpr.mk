@@ -1,1 +1,8 @@
-Test
+#
+LIBCPR_VERSION = 1.6.0
+LIBCPR_SITE = https://github.com/salim-dk/cpr
+LIBCPR_SITE_METHOD = git
+LIBCPR_INSTALL_STAGING = YES
+LIBCPR_CONF_OPTS = -DCPR_FORCE_USE_SYSTEM_CURL=ON
+LIBCPR_DEPENDENCIES = libcurl
+$(eval $(cmake-package))
